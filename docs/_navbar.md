@@ -1,4 +1,7 @@
 <!-- _navbar.md -->
 
-* [English](/)
-* [German](/de/)
+* Translations
+  * [English](/)
+  * [Danish](/dk/)
+  * [Dutch](/nl/)
+  * [German](/de/) 

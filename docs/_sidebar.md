@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-[![ForNAV](Images/ForNAV_logo_2f_250.png)](https://www.fornav.com/)
+<!-- [![ForNAV](/_media/ForNAV_logo_2f_250.png)](https://www.fornav.com/) -->
 
 * [Home](/)
 * [About ForNAV](/AboutForNAV.md)

@@ -1,7 +1,18 @@
-<!-- docs/_sidebar.md -->
-[![ForNAV](../Images/ForNAV_logo_2f_250.png)](https://www.fornav.com/)
-
-* [Home](/)
-* [ForNAV for Business Central SaaS](/ForNAVForBCSaaS/)
-  * [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)
-  * [Getting Started Guide](/ForNAVForBCSaaS/GettingStarted.md)
+- **ForNAV for Business Central On Prem**
+- **Getting Started**
+  - [Setup of the designer](/ForNAVForBCSaaS/)
+  - [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)
+  - [The designer explained](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [Custom Layouts](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [Templates](/ForNAVForBCSaaS/) <!-- Generic -->
+- **Advanced**
+  - [Multilanguage](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [JavaScript Basics](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [Records Collection](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [Adding DataItems](/ForNAVForBCSaaS/)
+  - [Trans- and Groupheaders/footers](/ForNAVForBCSaaS/)
+  - [JavaScript Deep Dive](/ForNAVForBCSaaS/)
+- **Extension Development**
+  - [Adding ForNAV reports to your own extension](/ForNAVForBCSaaS/)
+  - [Create an extension from ForNAV](/ForNAVForBCSaaS/)
+  - [ForNAV API](/ForNAVForBCSaaS/)
