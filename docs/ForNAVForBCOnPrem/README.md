@@ -11,7 +11,7 @@ The installation of the ForNAV designer is pretty straightforward. Please ensure
 ![Setup](../_media/SetupSelectComponents.png)
 
 ## Setup
-Once you have installed the ForNAV designer you need to set it up so it can connect to you instance of Business Central. ForNAV will work with both normal and [Docker](/ForNAVForBCOnPrem/DockerSetup.md) installations. Please refer to the [extension](/ForNAVForBCOnPrem/AddForNAVToYourExtension.md) guide to use your extension as a source for table and field information.
+Once you have installed the ForNAV designer you need to set it up so it can connect to your instance of Business Central. ForNAV will work with both normal and [Docker](/ForNAVForBCOnPrem/DockerSetup.md) installations. Please refer to the [extension](/ForNAVForBCOnPrem/AddForNAVToYourExtension.md) guide to use your extension as a source for table and field information.
 
 > By connecting the ForNAV designer to your Business Central instance ForNAV will be able to determine which tables and fields are available. This enables you to use tables and fields from both the base application and any extension that may be installed in your Business Central instance.
 
