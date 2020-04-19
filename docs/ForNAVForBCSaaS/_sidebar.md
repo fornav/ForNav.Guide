@@ -2,7 +2,7 @@
 - **Getting Started**
   - [Setup of the designer](/ForNAVForBCSaaS/)
   - [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)
-  - [The designer explained](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [The designer explained](/ForNAVForBCSaaS/DesignerExplained.md) <!-- Generic -->
   - [Custom Layouts](/ForNAVForBCSaaS/) <!-- Generic -->
   - [Templates](/ForNAVForBCSaaS/) <!-- Generic -->
 - **Advanced**

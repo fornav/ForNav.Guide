@@ -21,6 +21,8 @@ Once you have installed the ForNAV designer you need to set it up so it can conn
 
 If you don't know the address of you Business Central instance you can simply copy it from your Business Central Web Client. In this screenshot the address is https://bc15-fornav/bc. The first part of this address is the Server, https://bc150-fornav. The second part is the instance (bc).
 
+<!-- add installation of the certificate -->
+
 ![BCOnPremAddress](../_media/CheckBCOnPremAddress.png)
 
 ## Install the ForNAV Report Pack

@@ -1,9 +1,4 @@
 # ForNAV Guide
 
-
-    if (Line.Amount  > 2000) {
-      CurrControl.ForeColor = 'Red';
-    }
-
-Just some text
+Welcome to the ForNAV getting started guide. Please select your Microsoft 365 Business Central version to get started.
 
