@@ -6,8 +6,8 @@
 
 |<div style="width:150px">Control</div>|Function|
 |---------------------------|--------|
-|Label                      |A multi language label. It can display formatted text, when you drill down on an entry ForNAV will open the Text Editor|
-|Text Box                   |The most often used control in ForNAV. This accepts a Source Expression from the Business Central DataSet. If you want to write text or concatenate Source Expressions you can drill down into the source expression and use JavaScript. For instance "CurrReport.Caption + ': ' + Header.No"|
+|Label                      |A multi language label. It can display text in a number of languages, when you drill down on an entry ForNAV will open the Text Editor|
+|Text Box                   |The most often used control in ForNAV. This control accepts a Source Expression from the Business Central DataSet. If you want to write text or concatenate Source Expressions you can drill down into the source expression and use JavaScript. For instance "CurrReport.Caption + ': ' + Header.No"|
 |Picture Box                |Displays an image from the dataset.|
 |Image                      |Upload an image to your report.|
 |Gauge                      |Displays a gauge control.|
@@ -17,7 +17,7 @@
 |Bar Code                   |Displays a field from the dataset as a bar code. In the properties of this control you can choose the bar code symbology.|
 |Table                      |Displays a number of text boxes as a table|
 |Chart                      |Displays a chart|
-|Sparkline                  |Displays a sparkline|
+|Sparkline                  |Displays a Sparkline|
 
 ## Lint
 ![Designer Lint](../_media/DesignerLint.png)
@@ -25,15 +25,16 @@
 
 |<div style="width:150px">Control</div>|Function|
 |---------------------------|--------|
-|Open|Opens a report from a file or straight from the server.|
+|Open|Opens a report or report layout from a file or straight from the server.|
 |New|Opens the Online Report Gallery where you can choose a template for a new report or download the ForNAV Report Pack.|
+|Save|Saves the report or layout as a file or on a server.|
 |Extensions|Tools for working with extensions. You can upload, download, unpack, or create new extensions.|
-|Edit|Tools for copy, past, undo, redo.|
+|Edit|Tools for copy, paste, undo, redo.|
 |Font|Changes the font properties for the selected control.|
 |Alignment|Aligns the selected controls. Alignment aligns all controls in reference to the control that you selected first.|
 |Layout|Control size and grid position of your controls. Sets the size and position of all controls in reference to the control that you selected first.|
 |Zoom|Controls the zoom of the design pane.|
-|System|Settings opes the setting window. Restore restores the positions for the toolbox windows.|
+|System|Settings opens the setting window. Restore restores the positions for the toolbox windows.|
 
 ## Design Pane
 
@@ -52,7 +53,7 @@ All the elements in your ForNAV Report will be visible here. All report controls
 
 ## Report Explorer
 
-![Report Exporer](../_media/DesignerReportExplorer.png)
+![Report Explorer](../_media/DesignerReportExplorer.png)
 All the elements in your ForNAV Report will be accessible here. All report controls are shown as a cascaded list of elements. When you select an element the ForNAV Designer will display the properties of that element in the Property Grid.
   
 |<div style="width:150px">Control</div>|Function|
@@ -61,7 +62,7 @@ All the elements in your ForNAV Report will be accessible here. All report contr
 |Sections|A section is where we display data on a report. It has a set size that controls the amount of space it takes in a report. There a are several types of section<br>Header: prints information at the top of the DataItem.<br>Body: Prints information per line in the database.<br>Footer: prints information at the bottom of the DataItem.<br>TransHeader and -Footer: prints a section above or below the body section when a report prints more than one page.<br>GroupHeader and -Footer: prints a section above or below a group of body lines.|
 |Controls|On the sections are the controls that determine which data is printed and how that should be displayed.|
 
-> By right clicking a control you can modify its behaviour. You can move it up or down in the order of the controls, change the section type or change wether a control is printed at the bottom or on top.
+> By right clicking a control you can modify its behavior. You can move it up or down in the order of the controls, change the section type or change whether a control is printed at the bottom or on top.
 
 ![Modify Control](../_media/ModifyControl.png)
 
@@ -78,6 +79,8 @@ The property grid will display all the properties of a control, DataItem, sectio
 |Auto Fit|Will try to fit the text in a control even if the text is slightly to long.|
 |Styles|ForNAV reports have custom styles that can be used in all the controls of a report. To see a list of these lines select the properties of the report and drill down into the Style Sheet property.|
 
+> [Can Grow Knowledge base article](https://www.fornav.com/knowledge-base/cangrow/)
+
 ## Field List
 
 ![Field List](../_media/DesignerFieldList.png)
@@ -85,11 +88,11 @@ The field list will display all the fields you can use in the ForNAV Report. Som
 
 |<div style="width:150px">Control</div>|Function|
 |---------------------------|--------|
-|CurrReport|These are predefined variables. The CurrReport standardcaptions are text constants that ForNAV have predefined. These are translated in all the languages ForNAV reports are available in.|
+|CurrReport|These are predefined variables. The CurrReport StandardCaptions are text constants that ForNAV have predefined. These are translated in all the languages ForNAV reports are available in.|
 |DynamicsNavDataSet|These fields have been predefined by the report developer. They can only be modified by changing the code in the underlying extension.|
-|Fields|All the fields of the tables referenced in the report are available, wether they are standard Business Central tables or table extensions.|
+|Fields|All the fields of the tables referenced in the report are available, whether they are standard Business Central tables or table extensions.|
 |FieldCaptions|All the captions for the fields are also available, with their translations if they are available in the Business Central database.|
-|FieldGroups|ForNAV wil automatically group certain fields so they will be displayed in a formatted whole. The address fields are an example of these|
+|FieldGroups|ForNAV will automatically group certain fields so they will be displayed in a formatted whole. The address fields are an example of these|
 |FieldLookups|ForNAV will automatically make fields from linked tables available.|
 |FieldOptions|These are the option values of the option type fields.|
 

@@ -1,9 +1,10 @@
-- **ForNAV for Business Central On Prem**
+- **ForNAV for Business Central SaaS**
 - **Getting Started**
   - [Setup of the designer](/ForNAVForBCSaaS/)
+  - <!-- ToDo Setup Report Pack -->
   - [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)
   - [The designer explained](/ForNAVForBCSaaS/DesignerExplained.md) <!-- Generic -->
-  - [Custom Layouts](/ForNAVForBCSaaS/) <!-- Generic -->
+  - [Custom Layouts](/ForNAVForBCSaaS/CustomLayouts.md) <!-- Generic -->
   - [Templates](/ForNAVForBCSaaS/) <!-- Generic -->
 - **Advanced**
   - [Multilanguage](/ForNAVForBCSaaS/) <!-- Generic -->
