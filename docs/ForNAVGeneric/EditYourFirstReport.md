@@ -29,7 +29,7 @@ For further information you can watch the Coffeebreak video on adding fields fro
 
 <div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
     <iframe
-        src="https://www.youtube.com/embed/CmZhj17JDWk?list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa?start=66&end=1004"
+        src="https://www.youtube.com/embed/CmZhj17JDWk?start=66&end=1004"
         frameborder="0"
         webkitallowfullscreen
         mozallowfullscreen

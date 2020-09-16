@@ -41,3 +41,16 @@ On the Layout Import Worksheet you can select which layouts you want to import. 
 
 ![Import layouts](../_media/ImportLayouts.png)
 
+
+For further information you can watch the Coffeebreak video on Custom Layouts.
+
+<div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
+    <iframe
+        src="https://www.youtube.com/embed/mHWEj3KOVnk?start=39&end=600"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
