@@ -6,7 +6,7 @@
   - [Setup of the designer](/ForNAVForBCOnPrem/)
   - <!-- ToDo Setup Report Pack -->
   - [Edit your first Report](/ForNAVForBCOnPrem/EditYourFirstReport.md)
-  <!-- - [The designer explained](/ForNAVForBCOnPrem/DesignerExplained.md) <!-- Generic -->
+  - [The designer explained](/ForNAVForBCOnPrem/DesignerExplained.md) <!-- Generic -->
   - [Custom Layouts](/ForNAVForBCOnPrem/CustomLayouts.md) <!-- Generic -->
   <!-- - [Templates](/ForNAVForBCOnPrem/) Generic -->
   <!-- - Add fields from an extension -->
