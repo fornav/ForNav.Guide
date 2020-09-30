@@ -5,7 +5,7 @@ If you want to use conditional formatting, loop through data, or other things yo
 
 There are many places inside ForNAV where you can use JavaScript. The one used most often is the Text Box. The simplest use of JavaScript may be concatenating several strings. Let's have a look at one of the Text Boxes in a standard ForNAV report.
 
-![JavaScript Order of execution](../_Media/JavaScriptInTextBox.png)
+![Text Box JavaScript](../_media/JavaScriptInTextBox.png)
 
 In this Text Box the source expression is not just a single field. Two fields have been linked together with a simple line of JavaScript. This line simply strings two variables together with a connecting text.
 
@@ -72,7 +72,7 @@ You can use all of the standard JavaScript functions in ForNAV. However, standar
 
 All triggers inside a ForNAV report trigger in a certain order.
 
-![JavaScript Order of execution](../_Media/ForNAV%20Order%20of%20execution.png)
+![JavaScript Order of execution](../_media/ForNAV%20Order%20of%20execution.png)
 
 ## Demo Scripts
 
