@@ -180,7 +180,7 @@ BankAccount.SetRange('CurrencyCode', Header.CurrencyCode);
 BankAccount.First();
 ```
 
-### Convert decimals to US Format
+### Convert decimals to different Format
 
 Converts any number to the US Format in 2 decimals
 ```javascript
@@ -188,8 +188,7 @@ Number.prototype.usFormat = function(){
   return this.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
 }
 ```
-
-Converts without adding decimal places
+Converts to US format without adding decimal places
 ```javascript
 Number.prototype.usFormat = function(){
     return this.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
@@ -198,14 +197,44 @@ Number.prototype.usFormat = function(){
 
 Call this function from any number:
 ```javascript
-Headers.Amount.usFormat();
+Header.Amount.usFormat();
 ```
 
-### Set a minimal and maximum number of decimal places
-This line of code in the source expression of a text box will set the minimum number of decimals on 2, the maximum on 5
+Converts any number to the any format in any number of decimals
+```javascript
+/**
+ * Number.prototype.format(n, x, s, c)
+ * 
+ * @param integer n: length of decimal
+ * @param integer x: length of whole part
+ * @param mixed   s: sections delimiter
+ * @param mixed   c: decimal delimiter
+ */
+Number.prototype.format = function(n, x, s, c) {
+    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\D' : '$') + ')',
+        num = this.toFixed(Math.max(0, ~~n));
+
+    return (c ? num.replace('.', c) : num).replace(new RegExp(re, 'g'), '$&' + (s || ','));
+};
+
+12345678.9.format(2, 3, '.', ',');  // "12.345.678,90"
+123456.789.format(4, 4, ' ', ':');  // "12 3456:7890"
+12345678.9.format(0, 3, '-');       // "12-345-679"
+```
+Via https://stackoverflow.com/questions/149055/how-to-format-numbers-as-currency-string
+
+Call this function from any number:
+```javascript
+Header.Amount.format(2, 3, '.', ',');
+```
+
+### Get the number of decimal places
 
 ```javascript
-Line.UnitPrice.toFixed(5).replace(/0{0,3}$/, "");
+Number.prototype.countDecimals = function () {
+    if(Math.floor(this.valueOf()) === this.valueOf()) return 0;
+    return this.toString().split(".")[1].length || 0; 
+}
 ```
 
 ### Append and Prepend PDF Files
