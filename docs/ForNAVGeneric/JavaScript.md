@@ -201,6 +201,13 @@ Call this function from any number:
 Headers.Amount.usFormat();
 ```
 
+### Set a minimal and maximum number of decimal places
+This line of code in the source expression of a text box will set the minimum number of decimals on 2, the maximum on 5
+
+```javascript
+Line.UnitPrice.toFixed(5).replace(/0{0,3}$/, "");
+```
+
 ### Append and Prepend PDF Files
 
 ```javascript
