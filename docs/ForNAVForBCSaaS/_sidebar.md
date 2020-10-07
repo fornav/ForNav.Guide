@@ -6,7 +6,8 @@
   - [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)
   - [The designer explained](/ForNAVForBCSaaS/DesignerExplained.md) <!-- Generic -->
   - [Custom Layouts](/ForNAVForBCSaaS/CustomLayouts.md) <!-- Generic -->
-  <!-- - [Templates](/ForNAVForBCSaaS/) Generic -->
+  - [Templates](/ForNAVForBCSaaS/Templates.md)
+  - [ForNAV Language](/ForNAVForBCSaaS/Language.md)
 - **Advanced**
   <!-- - [Multilanguage](/ForNAVForBCSaaS/) Generic -->
   <!-- - [JavaScript Basics](/ForNAVForBCSaaS/) Generic -->

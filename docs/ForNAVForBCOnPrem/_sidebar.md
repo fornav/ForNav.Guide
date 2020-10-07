@@ -9,8 +9,8 @@
   - [Edit your first Report](/ForNAVForBCOnPrem/EditYourFirstReport.md)
   - [The designer explained](/ForNAVForBCOnPrem/DesignerExplained.md) <!-- Generic -->
   - [Custom Layouts](/ForNAVForBCOnPrem/CustomLayouts.md) <!-- Generic -->
-  <!-- - [Templates](/ForNAVForBCOnPrem/) Generic -->
-  <!-- - [ForNAV Language]() Generic -->
+  - [Templates](/ForNAVForBCOnPrem/Templates.md)
+  - [ForNAV Language](/ForNAVForBCOnPrem/Language.md)
   <!-- - Direct Print -->
 - **Advanced**
   <!-- - [JavaScript Basics](/ForNAVForBCOnPrem/) Dynamically change font, font color and hiding of report controls Generic -->
