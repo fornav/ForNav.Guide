@@ -9,9 +9,8 @@
   - [Templates](/ForNAVForBCSaaS/Templates.md)
   - [ForNAV Language](/ForNAVForBCSaaS/Language.md)
 - **Advanced**
-  <!-- - [Multilanguage](/ForNAVForBCSaaS/) Generic -->
-  <!-- - [JavaScript Basics](/ForNAVForBCSaaS/) Generic -->
-  <!-- - [Records Collection](/ForNAVForBCSaaS/) Generic -->
+  - [Records](/ForNAVForBCSaaS/Records.md) 
+  - [DataItems](/ForNAVForBCSaaS/DataItem.md)
   <!-- - [Adding DataItems](/ForNAVForBCSaaS/) -->
   <!-- - [Trans- and Groupheaders/footers](/ForNAVForBCSaaS/) -->
   - [JavaScript](/ForNAVForBCSaaS/JavaScript.md)

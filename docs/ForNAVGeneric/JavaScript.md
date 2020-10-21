@@ -66,6 +66,14 @@ You can use all of the standard JavaScript functions in ForNAV. However, standar
 |Fieldnames in single quotes	|Fieldnames not in quotes   	|
 |Brackets {}                    |Begin...End;                   |
 
+Usage Examples
+```javascript
+Line.GetOptionValue('Type');
+ForNAVSetup.CalcFields('Logo');
+Header.GetFilter('No');
+Line.SetFilter('DocumentNo', Header.No);
+```
+
 > Whilst you can read data from the Business Central database it is not possible to write data to the Business Central database from inside a ForNAV Layout. If you need to do this, for instance to set the number printed, you need to edit the report AL file.
 
 ## JavaScript Order of execution

@@ -13,9 +13,8 @@
   - [ForNAV Language](/ForNAVForBCOnPrem/Language.md)
   <!-- - Direct Print -->
 - **Advanced**
-  <!-- - [JavaScript Basics](/ForNAVForBCOnPrem/) Dynamically change font, font color and hiding of report controls Generic -->
-  <!-- - [Records Collection](/ForNAVForBCOnPrem/) Generic -->
-  <!-- - [Adding DataItems](/ForNAVForBCOnPrem/) Generic -->
+  - [Records](/ForNAVForBCOnPrem/Records.md) 
+  - [DataItems](/ForNAVForBCOnPrem/DataItem.md)
   <!-- - [Adding Totals]() Generic -->
   <!-- - [Transheaders/footers](/ForNAVForBCOnPrem/) Generic -->
   <!-- - [Groupheaders/footers](/ForNAVForBCOnPrem/) Generic -->
