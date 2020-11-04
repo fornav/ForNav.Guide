@@ -55,3 +55,16 @@ Another example for a DataItem to add is the Item Attributes:
 For all DataItems, both built in and added, you can change some properties. The first are Calculated Fields. Business Central tables sometimes contain flowfields. These fields do not contain data in the database but need to be calculated. An example of this is the Amount field on the Sales Invoice Header. It calculates the total amount of all the Sales Invoice lines. If you need to use one of these fields in your ForNAV report you need to calculate it with the Calculated Fields property of your DataItem.
 
 The second is the Data Item Table View. With this you can override the Built in sorting and filtering of your DataItems.
+
+## Further Learning
+
+<div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
+    <iframe
+        src="https://www.youtube.com/embed/eK0Cj8LVVd4?start=115&end=1013"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>

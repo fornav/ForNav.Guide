@@ -31,3 +31,16 @@ Getting data by JavaScript can be as simple as adding a Get function in the repo
 ![CompanyInformation.Get()](../_media/CompanyInfoGet.png)
 
 The JavaScript section discusses this method of getting data in further detail.
+
+## Further Learning
+
+<div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
+    <iframe
+        src="https://www.youtube.com/embed/rf9H4LW2qiE?start=103&end=650"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
