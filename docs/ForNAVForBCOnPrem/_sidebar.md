@@ -15,8 +15,8 @@
 - **Advanced**
   - [Records](/ForNAVForBCOnPrem/Records.md) 
   - [DataItems](/ForNAVForBCOnPrem/DataItem.md)
-  <!-- - [Adding Totals]() Generic -->
-  <!-- - [Transheaders/footers](/ForNAVForBCOnPrem/) Generic -->
+  - [Totals](/ForNAVForBCOnPrem/Totals.md)
+  - [Transport totals](/ForNAVForBCOnPrem/TransportTotals.md)
   <!-- - [Groupheaders/footers](/ForNAVForBCOnPrem/) Generic -->
   - [JavaScript](/ForNAVForBCOnPrem/JavaScript.md)
   <!-- - [Create a new report]()  Generic -->

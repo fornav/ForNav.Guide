@@ -11,8 +11,9 @@
 - **Advanced**
   - [Records](/ForNAVForBCSaaS/Records.md) 
   - [DataItems](/ForNAVForBCSaaS/DataItem.md)
+  - [Totals](/ForNAVForBCSaas/Totals.md)
+  - [Transport totals](/ForNAVForBCOnPrem/TransportTotals.md)
   <!-- - [Adding DataItems](/ForNAVForBCSaaS/) -->
-  <!-- - [Trans- and Groupheaders/footers](/ForNAVForBCSaaS/) -->
   - [JavaScript](/ForNAVForBCSaaS/JavaScript.md)
 <!-- - **Extension Development** -->
   <!-- - [Adding ForNAV reports to your own extension](/ForNAVForBCSaaS/) -->
