@@ -13,7 +13,7 @@
   - [DataItems](/ForNAVForBCSaaS/DataItem.md)
   - [Totals](/ForNAVForBCSaas/Totals.md)
   - [Transport totals](/ForNAVForBCOnPrem/TransportTotals.md)
-  <!-- - [Adding DataItems](/ForNAVForBCSaaS/) -->
+  - [Group totals](/ForNAVForBCOnPrem/GroupTotals.md)
   - [JavaScript](/ForNAVForBCSaaS/JavaScript.md)
 <!-- - **Extension Development** -->
   <!-- - [Adding ForNAV reports to your own extension](/ForNAVForBCSaaS/) -->

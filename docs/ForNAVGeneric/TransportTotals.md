@@ -4,7 +4,7 @@ In some cases it may happen that your documents spill over to follow up pages, l
 
 ![Continued](../_media/Continued.png)
 
-## Sections
+## Add transport totals
 
 In order to add transport totals we need to do two things, the first is calculate the totals, the totals page details how to do this. The second is to create new sections where we want to place these totals. These sections are called TransHeaders and TransFooters. You can add these just like normal sections, by right clicking the DataItem where you want to add these sections and selecting Insert Section. Further configuration is not required. ForNAV will automatically determine when to print these sections and will automatically print the correct totals.
 
