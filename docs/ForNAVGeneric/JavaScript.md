@@ -248,10 +248,16 @@ Number.prototype.countDecimals = function () {
 ### Append and Prepend PDF Files
 
 ```javascript
-Record.CalcFields('BlobField');
-CurrReport.GetDataItem('Header').Pdf.Append(Record.BlobField)
-CurrReport.GetDataItem('Header').Pdf.Prepend(Record.BlobField)
+ForNAVFileStorage.Get('TERMS', 'APPEND');
+ForNAVFileStorage.CalcFields('Data');
+CurrReport.GetDataItem('Header').Pdf.Append(ForNAVFileStorage.Data);
+
+ForNAVFileStorage.Get('TERMS', 'PREPEND');
+ForNAVFileStorage.CalcFields('Data');
+CurrReport.GetDataItem('Header').Pdf.Prepend(ForNAVFileStorage.Data);
 ```
+
+> From ForNAV Report Pack version 5.4.0.0 you can add image, pdf, and other files to the ForNAV File Storage table. The ForNAV File Storage table has two key fields, Code and Type. Therefore when you do a Get() on that table you need to specify both these fields.
 
 ### Add text and image watermarks
 
@@ -265,9 +271,11 @@ CurrReport.Watermark.Text.Text = 'Watermark';
 
 For an image watermark you can use the image or a pdf in a blob field as a watermark
 ```javascript
-Record.CalcFields('BlobField');
-CurrReport.Watermark.Image.Image = Record.BlobField;
+ForNAVFileStorage.Get('WATERMARK', 'IMAGE');
+ForNAVFileStorage.CalcFields('Data');
+CurrReport.Watermark.Image.Image = ForNAVFileStorage.Data;
 ```
+> When you specify watermark controls they will be remembered. Therefore, when you don't want to display watermark text or images for a subsequent page you need to hide them using the CurrReport.Watermark.Text.Visible and CurrReport.Watermark.Image.Visible controls.
 
 All of the watermark controls are:
 ```javascript
