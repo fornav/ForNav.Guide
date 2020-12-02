@@ -301,6 +301,23 @@ CurrReport.Watermark.Text.Hyperlink String
 CurrReport.Watermark.Text.Visible Boolean
 ```
 
+### Control formatting
+You can control the formatting of a text box by using the JavaScript formatting. You can use .NET format strings.
+
+```javascript
+CurrReport.DotNetFormat(Header.Amount, "C"); // Sets the format of the Header.Amount to Currency
+CurrReport.DotNetFormat(Header.DocumentDate, 'yyyy-MM-dd'); // Sets the format of the DocumentDate text box to this string
+```
+
+> The formatting is controlled by .NET format strings. You can build up your format strings by using the Format property editor of a text box. .NET formatting is explained in depth [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types).
+
+You can also specify the language code you want to use to format the text box. ForNAV uses the standard language codes specified by Microsoft. You can find them [here](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+
+```javascript
+CurrReport.DotNetFormat(Header.DueDate, "D", 1033); // Formats the date to en-US format
+CurrReport.DotNetFormat(Header.DueDate, "D", 1043); // Formats the date to nl-NL format
+```
+
 ## Further Learning
 
 * [Knowledge Base Dynamic control of fonts](https://www.fornav.com/knowledge-base/dynamic-control-of-color-and-font-in-text-boxes/ )
