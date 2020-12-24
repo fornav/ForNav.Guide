@@ -1,5 +1,23 @@
+# Reports ForNAV Designer
 
-# The Reports ForNAV Converter makes classic to RDLC fast and easy
+Our Reports ForNAV Designer is an easy-to-use tool for creating and modifying reports for Microsoft Dynamics NAV.
+
+If you are familiar with the C/SIDE reporting tool, you can start working with the Reports ForNAV Designer instantly. We provide an enhanced user experience, with a helpful visual environment and easy drag-and-drop functionality.
+
+As well as supporting everything you are familiar with from C/SIDE – such as headers, footers, transport of subtotals, group totals, special forms like package slips, invoices with payment information, and payment slips – the features in the Reports ForNAV Designer also include:
+
+- Editing the dataset, including columns – you can do this in the ForNAV Designer or in C/SIDE
+- Easily creating new reports, including templates and other tools for enhancing productivity
+- Extended PDF support
+- Support for Microsoft Word, Excel, and XML output
+- Barcode/QR code, table and graphic controls
+- Support for JavaScript
+- Conversion and editing of RDLC reports
+- Preview with or without a request page, and with live data
+- Saving designs in custom layouts or report objects
+- And much more…
+
+# Reports ForNAV Converter
 
 The ForNAV converter enables reports developed for Microsoft Dynamics NAV 5.0 and NAV 2009 (also known as “classic” or C/SIDE reports) to run on Microsoft Dynamics NAV 2013 – as well as newer versions that require the RDLC format.
 
@@ -22,26 +40,6 @@ When you open the development environment on your Microsoft Dynamics NAV upgrade
 Partners have found that this whole operation can be done in less than a minute. Even for complex reports.
 
 All it requires is the same data (table) structure, upgraded business logic (something you would do anyway for an upgrade project), and the same language version.
-
- 
-## Reports ForNAV Designer
-
-Our Reports ForNAV Designer is an easy-to-use tool for creating and modifying reports for Microsoft Dynamics NAV.
-
-If you are familiar with the C/SIDE reporting tool, you can start working with the Reports ForNAV Designer instantly. We provide an enhanced user experience, with a helpful visual environment and easy drag-and-drop functionality.
-
-As well as supporting everything you are familiar with from C/SIDE – such as headers, footers, transport of subtotals, group totals, special forms like package slips, invoices with payment information, and payment slips – the features in the Reports ForNAV Designer also include:
-
-- Editing the dataset, including columns – you can do this in the ForNAV Designer or in C/SIDE
-- Easily creating new reports, including templates and other tools for enhancing productivity
-- Extended PDF support
-- Support for Microsoft Word, Excel, and XML output
-- Barcode/QR code, table and graphic controls
-- Support for JavaScript
-- Conversion and editing of RDLC reports
-- Preview with or without a request page, and with live data
-- Saving designs in custom layouts or report objects
-- And much more…
 
  
 You can download Reports ForNAV here.
