@@ -46,25 +46,25 @@ There are many places inside ForNAV where you can write JavaScript. The Text Box
 
 You can use all of the standard JavaScript functions in ForNAV. However, standard JavaScript has no functions for reading data from the Business Central database. ForNAV has embedded some of the DataBase functions inside the ForNAV JavaScript editor. 
 
-|JavaScript                     |AL                             |
-|-------------------------------|-------------------------------|
-|Get();)                        |Get();                         |
-|CalcFields(‘Picture’);         |CalcFields(Picture);           |
-|SetAutoCalcFields(‘Balance’);  |SetAutoCalcFields(Balance);    |
-|Init();                        |Init;                          |
-|Next();                        |Next;                          |
-|First();                       |FindFirst;                     |
-|SetFilter(‘Name’, ‘Mark’);     |SetFilter(Name, ‘Mark’);       |
-|SetRange(‘Name’, ‘Mark’);      |SetRange(Name, ‘Mark’);        |
-|GetCaption()                   ||
-|GetOptionValue(string ExternalFieldName)||
-|GetFilter(string ExternalFieldName)||
-|GetFilters()||
+|JavaScript                              |AL                             |C/AL                           |
+|----------------------------------------|-------------------------------|-------------------------------|
+|Get();)                                 |Get();                         |GET();                         |
+|CalcFields(‘Picture’);                  |CalcFields(Picture);           |CALCFIELDS(Picture);           |
+|SetAutoCalcFields(‘Balance’);           |SetAutoCalcFields(Balance);    |SETAUTOCALCFIELDS(Balance);    |
+|Init();                                 |Init();                        |INIT;                          |
+|Next();                                 |Next();                        |NEXT;                          |
+|First();                                |FindFirst();                   |FINDFIRST;                     |
+|SetFilter(‘Name’, ‘Mark’);              |SetFilter(Name, ‘Mark’);       |SETFILTER(Name, ‘Mark’);       |
+|SetRange(‘Name’, ‘Mark’);               |SetRange(Name, ‘Mark’);        |SETRANGE(Name, ‘Mark’);        |
+|GetCaption()                            |                               |                               |
+|GetOptionValue(string ExternalFieldName)|                               |                               |
+|GetFilter(string ExternalFieldName)     |                               |                               |
+|GetFilters()                            |                               |                               |
 |<br>
-|Case Sensitive                 |Not case sensitive             |
-|Parentheses mandatory          |Parentheses somewhat mandatory |
-|Fieldnames in single quotes	|Fieldnames not in quotes   	|
-|Brackets {}                    |Begin...End;                   |
+|Case Sensitive                          |Not case sensitive             |Not case sensitive             |
+|Parentheses mandatory                   |Parentheses somewhat mandatory |Parentheses not mandatory      |
+|Fieldnames in single quotes	           |Fieldnames not in quotes   	   |Fieldnames not in quotes   	   |
+|Brackets {}                             |Begin...End;                   |BEGIN...END;                   |
 
 Usage Examples
 ```javascript
