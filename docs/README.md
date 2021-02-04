@@ -59,17 +59,17 @@ Welcome to the ForNAV getting started guide. Please follow the flow chart to get
           end
     click B "http://www.github.com" _blank
     click C "https://appsource.microsoft.com/en/product/dynamics-365-business-central/PUBID.fornav%7CAID.customizable_report_pack%7CPAPPID.83326d6d-11f8-49fd-981a-6f266a7c8d81" _blank
-    click D "/#/ForNAVForBCSaaS/?id=download" _blank
-    click E "/#/ForNAVForBCSaaS/?id=setup" _blank
-    click F "/#/ForNAVForBCSaaS/EditYourFirstReport?id=editing-your-first-fornav-report" _blank
+    click D "/ForNav.Guide/#/ForNAVForBCSaaS/?id=download" _blank
+    click E "/ForNav.Guide/#/ForNAVForBCSaaS/?id=setup" _blank
+    click F "/ForNav.Guide/#/ForNAVForBCSaaS/EditYourFirstReport?id=editing-your-first-fornav-report" _blank
     click K "https://www.fornav.com/knowledge-base/fornav-granule-required/" _blank
     click N "https://www.fornav.com/knowledge-base/troubleshooting-the-nav-web-service/" _blank
     click O "https://www.youtube.com/watch?v=hIfv0Zfh2LQ" _blank
     click P "https://www.fornav.com/knowledge-base/installing-objects-fornav-isv-granule-area/" _blank
-    click L "/#/ForNAVForBCOnPrem/?id=download" _blank
-    click W "/#/ForNAVForBCOnPrem/?id=setup" _blank
-    click X "/#/ForNAVForBCOnPrem/?id=install-the-fornav-report-pack" _blank
-    click Z "/#/ForNAVForBCOnPrem/EditYourFirstReport" _blank
+    click L "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=download" _blank
+    click W "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=setup" _blank
+    click X "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=install-the-fornav-report-pack" _blank
+    click Z "/ForNav.Guide/#/ForNAVForBCOnPrem/EditYourFirstReport" _blank
 ```
 
 
