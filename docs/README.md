@@ -63,9 +63,9 @@ Welcome to the ForNAV getting started guide. Please follow the flow chart to get
     click E "/ForNav.Guide/#/ForNAVForBCSaaS/?id=setup" _blank
     click F "/ForNav.Guide/#/ForNAVForBCSaaS/EditYourFirstReport?id=editing-your-first-fornav-report" _blank
     click K "https://www.fornav.com/knowledge-base/fornav-granule-required/" _blank
-    click N "https://www.fornav.com/knowledge-base/troubleshooting-the-nav-web-service/" _blank
-    click O "https://www.youtube.com/watch?v=hIfv0Zfh2LQ" _blank
-    click P "https://www.fornav.com/knowledge-base/installing-objects-fornav-isv-granule-area/" _blank
+    click O "https://www.fornav.com/knowledge-base/troubleshooting-the-nav-web-service/" _blank
+    click N "https://www.youtube.com/watch?v=hIfv0Zfh2LQ" _blank
+    click Q "https://www.fornav.com/knowledge-base/installing-objects-fornav-isv-granule-area/" _blank
     click L "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=download" _blank
     click W "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=setup" _blank
     click X "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=install-the-fornav-report-pack" _blank
