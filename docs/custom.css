@@ -1,0 +1,21 @@
+.label foreignObject {
+    overflow: visible;
+    font-size: 90%;
+    /* color: green; */
+}
+
+/* a.clickable {
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.edgeLabel {
+    background-color: violet;
+} */
+
+/* .node.clickable {
+    fill: blue !important;
+    color: blue !important;
+    background-color: violet;
+} */
