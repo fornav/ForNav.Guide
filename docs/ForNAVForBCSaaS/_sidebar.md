@@ -1,6 +1,7 @@
 - **ForNAV for Business Central SaaS**
 - **Getting Started**
-  - [Setup of the designer](/ForNAVForBCSaaS/)
+  - [Getting started](/ForNAVForBCSaaS/)
+  - [Setup](/ForNAVForBCSaaS/Setup)
   - <!-- ToDo Setup Report Pack -->
   <!-- - ToDo Add Help pages for the ForNAV Report Pack -->
   - [Edit your first Report](/ForNAVForBCSaaS/EditYourFirstReport.md)

@@ -1,0 +1,29 @@
+/* Buttons */
+.guideBtn {
+  display:inline-block;
+  color:#CCC;
+  border:1px solid #CCC;
+  background:#e64215;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 200px;
+  min-width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+.guideBtn:active {
+  /* color:#e64215; */
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+.guideBtns {
+  /* background: blue; */
+  text-align: center;
+}
+
+/* Mermaid */
+.label foreignObject {
+    overflow: visible;
+    font-size: 90%;
+    /* color: green; */
+}

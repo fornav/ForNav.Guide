@@ -3,7 +3,8 @@
 
 - **ForNAV for Business Central On Prem**
 - **Getting Started**
-  - [Setup of the designer](/ForNAVForBCOnPrem/)
+  - [Getting started](/ForNAVForBCOnPrem/)
+  - [Setup](/ForNAVForBCOnPrem/Setup.md)
   - <!-- ToDo Setup Report Pack -->
   <!-- - ToDo Add Help pages for the ForNAV Report Pack -->
   - [Edit your first Report](/ForNAVForBCOnPrem/EditYourFirstReport.md)
