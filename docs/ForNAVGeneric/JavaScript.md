@@ -171,10 +171,10 @@ SalesCommentLine.SetFilter('Code', "<>''");
 Add the Bank Account table to the records and get the record based on the currency.
 ```javascript
 switch(Header.CurrencyCode) {
-  case Header.CurrencyCode == 'EUR':
+  case 'EUR':
     BankAccount.Get('EURBANKNO');
     break;
-  case Header.CurrencyCode == 'USD':
+  case 'USD':
     BankAccount.Get('USDBANKNO');
     break;
   default:
