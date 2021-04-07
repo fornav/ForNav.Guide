@@ -4,7 +4,7 @@
 To install the ForNAV report pack go to the Extension Management page, navigate to the Extension Market Place and search for ForNAV. When you find the Customizable Report Pack click on Trial Version to install.
 
 ## Download
-If you would like to do more than just adding a logo, payment note, etc., you need to edit the layout of the report with the ForNAV designer. The ForNAV designer lets you modify the data that is displayed on the layout, its location on the page, fonts and colors, and everything else you might need to modify.
+If you would like to do more than just adding a logo, payment note, etc., you need to edit the layout of the report with the ForNAV designer. The ForNAV designer lets you modify the data that is displayed on the layout, its location on the page, fonts and colours, and everything else you might need to modify.
 
 > In order to edit a ForNAV report you need to [download](https://www.fornav.com/download/) and install the ForNAV designer.
 
