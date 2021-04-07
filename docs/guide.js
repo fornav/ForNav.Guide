@@ -33,14 +33,11 @@ function LoadGuideButtons() {
         guideBtns[i].style.cursor = 'pointer';
     
         guideBtns[i].onmouseover = function() {
-            // this.style.backgroundColor = 'red';
-            this.style.borderColor = '#747474';
-            // this.style.fontWeight = 'bold';
+            this.style.backgroundColor = '#eb6844';
+            this.style.color = '#5d6d7e';
         };
         guideBtns[i].onmouseout = function() {
-            this.style.backgroundColor = '';
-            this.style.fontWeight = '';
-            this.style.borderColor = '';
+            this.style = '';
         };
         guideBtns[i].onclick = function() {
             window.location = this.dataset.link;
