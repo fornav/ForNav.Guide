@@ -15,7 +15,7 @@ Once you have installed the ForNAV designer you need to set it up so it can conn
 
 > By connecting the ForNAV designer to your Business Central instance ForNAV will be able to determine which tables and fields are available. This enables you to use tables and fields from both the base application and any extension that may be installed in your Business Central instance.
 
-![Setup](../_media/SetupOnPrem.png)
+![Setup](../_media/SetupOnPremise.png)
 
 > The ForNAV Designer will store your settings in a connection string. You can copy this connection string so you can use it on another system. The ForNAV designer will keep a number of recently used connection strings in memory so you can switch easily.
 
