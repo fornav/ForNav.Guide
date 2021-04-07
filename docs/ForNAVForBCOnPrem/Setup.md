@@ -1,7 +1,7 @@
 # Setup of the ForNAV designer
 
 ## Download
-If you would like to do more than just adding a logo, payment note, etc., you need to edit the layout of the report with the ForNAV designer. The ForNAV designer lets you modify the data that is displayed on the layout, its location on the page, fonts and colors, and everything else you might need to modify.
+If you would like to do more than just adding a logo, payment note, etc., you need to edit the layout of the report with the ForNAV designer. The ForNAV designer lets you modify the data that is displayed on the layout, its location on the page, fonts and colours, and everything else you might need to modify.
 
 In order to edit a ForNAV report you need to [download](https://www.fornav.com/download/) and install the ForNAV designer.
 
@@ -15,13 +15,11 @@ Once you have installed the ForNAV designer you need to set it up so it can conn
 
 > By connecting the ForNAV designer to your Business Central instance ForNAV will be able to determine which tables and fields are available. This enables you to use tables and fields from both the base application and any extension that may be installed in your Business Central instance.
 
-![Setup](../media/../_media/SetupOnPrem.png)
+![Setup](../_media/SetupOnPrem.png)
 
 > The ForNAV Designer will store your settings in a connection string. You can copy this connection string so you can use it on another system. The ForNAV designer will keep a number of recently used connection strings in memory so you can switch easily.
 
 If you don't know the address of your Business Central instance you can simply copy it from your Business Central Web Client. In this screenshot the address is https://bc160-fornav/bc. The first part of this address is the Server, https://bc160-fornav. The second part is the instance, bc.
-
-<!-- add installation of the certificate -->
 
 ![BCOnPremAddress](../_media/CheckBCOnPremAddress.png)
 
@@ -32,7 +30,7 @@ Once you have installed the ForNAV designer and configured it correctly you can 
 
 The first thing you need to do is to download the ForNAV Report Pack. You can do this from the ForNAV designer. Select New and then ForNAV Report Pack (Extension App).
 
-![BCOnPremRepPack](../media/../_media/DownloadRepPackOnPrem.png)
+![BCOnPremRepPack](../_media/DownloadRepPackOnPrem.png)
 
 Once you have downloaded the Report Pack app file you can upload it in you Business Central instance by selecting Extensions > Upload Extension.
 
