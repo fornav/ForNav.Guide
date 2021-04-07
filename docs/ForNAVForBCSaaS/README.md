@@ -1,38 +1,44 @@
-# Setup of the ForNAV designer
+# Getting started with ForNAV for Business Central SaaS
 
-## Install the ForNAV Report Pack
-To install the ForNAV report pack go to the Extension Management page, navigate to the Extension Market Place and search for ForNAV. When you find the Customizable Report Pack click on Trial Version to install.
 
-## Download
-If you would like to do more than just adding a logo, payment note, etc., you need to edit the layout of the report with the ForNAV designer. The ForNAV designer lets you modify the data that is displayed on the layout, its location on the page, fonts and colors, and everything else you might need to modify.
 
-> In order to edit a ForNAV report you need to [download](https://www.fornav.com/download/) and install the ForNAV designer.
+<!-- 
+Explain the function of this document. Offer the mermaid chart as a means to get started
 
-## Installation
-The installation of the ForNAV designer is pretty straightforward. Please ensure you select the Full Installation.
+Also start next buttons on every page to help guide the reader.
 
-![Setup](../_media/SetupSelectComponents.png)
+ -->
 
-## Setup
-Once you have installed the ForNAV designer you need to set it up so it can connect to your Business Central Sandbox. To do this you need to open the ForNAV Designer and select Setup > Edit Connection.
+ 
 
-> By connecting the ForNAV designer to your Business Central instance ForNAV will be able to determine which tables and fields are available. This enables you to use tables and fields from both the base application and any extension that may be installed in your Business Central instance.
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {
+    'primaryColor': '#e64215',
+    'primaryBorderColor': '#707173',
+    'primaryTextColor': 'white',
+    'secondaryColor':'#707173',
+    'lineColor': '#707173',
+    'edgeLabelBackground': '#707173',
+    'tertiaryColor': 'white',
+    'textColor': '#707173',
+    'tertiaryBorderColor': '#e64215'
+}}}%%
 
-![Setup](../media/../_media/SetupSaas.png)
+graph TD
+  cloud01(Cloud)
+  subgraph Cloud
+    cloud01 ==> cloud02[Install from App Source]
+    cloud02 ==> cloud03[Install ForNAV Designer<br>and Converter]
+    cloud03 ==> cloud04[Set up the<br>ForNAV Designer]
+    cloud04 ==> cloud05[Edit your first report]
+    cloud05 ==> cloud06[Buy License]
+  end
 
-> The ForNAV Designer will store your settings in a connection string. You can copy this connection string so you can use it on another system. The ForNAV designer will keep a number of recently used connection strings in memory so you can switch easily.
+  click cloud02 "https://appsource.microsoft.com/en/product/dynamics-365-business-central/PUBID.fornav%7CAID.customizable_report_pack%7CPAPPID.83326d6d-11f8-49fd-981a-6f266a7c8d81" _blank
+  click cloud03 "./#/ForNAVForBCSaaS/Setup?id=download" _blank
+  click cloud04 "/ForNav.Guide/#/ForNAVForBCSaaS/Setup?id=setup" _blank
+  click cloud05 "/ForNav.Guide/#/ForNAVForBCSaaS/EditYourFirstReport?id=editing-your-first-fornav-report" _blank
 
-<!-- ToDo Setup Report Pack -->
-
-For further information you can watch the Coffeebreak video on Cloud setup.
-
-<div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
-    <iframe
-        src="https://www.youtube.com/embed/PX0qntKpe-s?start=55&end=709"
-        frameborder="0"
-        webkitallowfullscreen
-        mozallowfullscreen
-        allowfullscreen
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    </iframe>
-</div>
+  classDef hyperlink color:#CCC;
+  class cloud02,cloud03,cloud04,cloud05 hyperlink;
+```
