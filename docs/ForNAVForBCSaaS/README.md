@@ -1,4 +1,6 @@
-# Getting started
+# Getting started with ForNAV for Business Central SaaS
+
+
 
 <!-- 
 Explain the function of this document. Offer the mermaid chart as a means to get started
@@ -33,7 +35,7 @@ graph TD
   end
 
   click cloud02 "https://appsource.microsoft.com/en/product/dynamics-365-business-central/PUBID.fornav%7CAID.customizable_report_pack%7CPAPPID.83326d6d-11f8-49fd-981a-6f266a7c8d81" _blank
-  click cloud03 "/ForNav.Guide/#/ForNAVForBCSaaS/Setup?id=download" _blank
+  click cloud03 "./#/ForNAVForBCSaaS/Setup?id=download" _blank
   click cloud04 "/ForNav.Guide/#/ForNAVForBCSaaS/Setup?id=setup" _blank
   click cloud05 "/ForNav.Guide/#/ForNAVForBCSaaS/EditYourFirstReport?id=editing-your-first-fornav-report" _blank
 
