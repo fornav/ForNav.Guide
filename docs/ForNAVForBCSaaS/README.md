@@ -1,16 +1,17 @@
 # Getting started with ForNAV for Business Central SaaS
 
+To quickly setup ForNAV for Business Central SaaS please follow the steps in the flow chart. Alternatively you can follow the Next buttons to follow the guided online learning or just pick any subject you want to know more about.
 
 
-<!-- 
-Explain the function of this document. Offer the mermaid chart as a means to get started
+<script>
+  LoadGuideButtons();
+</script>
 
-Also start next buttons on every page to help guide the reader.
+<div class="nextBtns">
+  <div class="guideBtn" id="ForNAVForBCSaaS" data-link="#/ForNAVForBCSaaS/Setup">Next >></div> 
+</div>
 
- -->
-
- 
-
+## Quick Setup Guide
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
     'primaryColor': '#e64215',
