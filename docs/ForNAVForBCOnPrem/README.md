@@ -1,11 +1,17 @@
-# Getting started
+# Getting started with ForNAV for Business Central On Premise
 
-<!-- 
-Explain the function of this document. Offer the mermaid chart as a means to get started
+To quickly setup ForNAV for Business Central On Premise please follow the steps in the flow chart. Alternatively you can follow the Next buttons to follow the guided online learning or just pick any subject you want to know more about from the menu on the left.
 
-Also start next buttons on every page to help guide the reader.
 
- -->
+<script>
+  LoadGuideButtons();
+</script>
+
+<div class="nextBtns">
+  <div class="guideBtn" id="ForNAVForBCSaaS" data-link="#/ForNAVForBCOnPrem/Setup">Next >>> Setup</div> 
+</div>
+
+## Quick Setup Guide
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
@@ -32,21 +38,23 @@ graph TD
     cs02 ==> cs03[Connect the ForNAV Designer]
     cs03 ==> |NAV 2015 and higner only|cs04[Install Report Pack Fob]
     cs04 ==> cs05[Install Report Pack objects]
+    cs05 ==> onprem99[Buy License]
     ex01 --> ex02[/BC14 Only<br>enable extensions/]
     ex02 ==> ex03[Connect the ForNAV Designer]
     ex03 ==> ex04[Install the<br>ForNAV Report Pack]
     ex04 ==> ex05[Edit your first report]
+    ex05 ==> onprem99[Buy License]
   end
 
-  click K "https://www.fornav.com/knowledge-base/fornav-granule-required/" _blank
-  click O "https://www.fornav.com/knowledge-base/troubleshooting-the-nav-web-service/" _blank
-  click N "https://www.youtube.com/watch?v=hIfv0Zfh2LQ" _blank
-  click Q "https://www.fornav.com/knowledge-base/installing-objects-fornav-isv-granule-area/" _blank
-  click L "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=download" _blank
-  click W "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=setup" _blank
-  click X "/ForNav.Guide/#/ForNAVForBCOnPrem/?id=install-the-fornav-report-pack" _blank
-  click Z "/ForNav.Guide/#/ForNAVForBCOnPrem/EditYourFirstReport" _blank
+  click onprem02 "https://www.fornav.com/knowledge-base/fornav-granule-required/" _blank
+  click cs02 "https://www.fornav.com/knowledge-base/troubleshooting-the-nav-web-service/" _blank
+  click cs03 "https://www.youtube.com/watch?v=hIfv0Zfh2LQ" _blank
+  click cs04 "https://www.fornav.com/knowledge-base/installing-objects-fornav-isv-granule-area/" _blank
+  click onprem03 "./#/ForNAVForBCOnPrem/Setup?id=download" _blank
+  click ex03 "./#/ForNAVForBCOnPrem/Setup?id=setup" _blank
+  click ex04 "./#/ForNAVForBCOnPrem/Setup?id=install-the-fornav-report-pack" _blank
+  click ex05 "./#/ForNAVForBCOnPrem/EditYourFirstReport" _blank
 
-  classDef hyperlink color:#5290AE;
-  class cloud02 hyperlink;
+  classDef hyperlink color:#CCC;
+  class onprem02,onprem03,cs02,cs03,cs04,ex03,ex04,ex05 hyperlink;
 ```

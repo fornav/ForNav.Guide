@@ -1,6 +1,6 @@
 # Getting started with ForNAV for Business Central SaaS
 
-To quickly setup ForNAV for Business Central SaaS please follow the steps in the flow chart. Alternatively you can follow the Next buttons to follow the guided online learning or just pick any subject you want to know more about.
+To quickly setup ForNAV for Business Central SaaS please follow the steps in the flow chart. Alternatively you can follow the Next buttons to follow the guided online learning or just pick any subject you want to know more about from the menu on the left.
 
 
 <script>
