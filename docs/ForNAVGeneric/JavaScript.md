@@ -330,15 +330,6 @@ if (CurrReport.PageNo != 1 && !watermark2Loaded) {
 }
 ```
 
-For list style reports:
-On the list OnAfterGetRecord you will need to load and set the watermark based on the page number
-
-```javascript
-CurrReport.PageNo == 1 ? Watermark.Get('PAGE1', 'WATERMARK') : Watermark.Get('PAGE2', 'WATERMARK');
-Watermark.CalcFields('Data');
-CurrReport.Watermark.Image.Image = Watermark.Data;
-```
-
 All of the watermark controls are:
 ```javascript
 CurrReport.Watermark.Image.Visible Boolean
