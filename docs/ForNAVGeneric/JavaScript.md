@@ -263,7 +263,7 @@ function formataddress (name,name2,address,address2, postcode,city, country) {
 
 Finally add this line of script in the text box source expression.
 ```javascript
-formataddress('',Header.Bill_toName2,Header.Bill_toAddress,Header.Bill_toAddress2, Header.Bill_toPostCode,Header.Bill_toCity, Header.FieldLookups.Bill_toCountry_RegionName)
+formataddress(Header.Bill_toName,Header.Bill_toName2,Header.Bill_toAddress,Header.Bill_toAddress2, Header.Bill_toPostCode,Header.Bill_toCity, Header.FieldLookups.Bill_toCountry_RegionName)
 
 ```
 
