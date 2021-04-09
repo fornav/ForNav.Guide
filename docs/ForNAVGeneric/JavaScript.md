@@ -301,6 +301,44 @@ CurrReport.Watermark.Image.Image = ForNAVFileStorage.Data;
 ```
 > When you specify watermark controls they will be remembered. Therefore, when you don't want to display watermark text or images for a subsequent page you need to hide them using the CurrReport.Watermark.Text.Visible and CurrReport.Watermark.Image.Visible controls.
 
+To print a different watermark on follow up pages. You will need to load your watermark images in the ForNAV File Storage table
+
+![Multiple Watermarks](../_media/MultiplePageWatermark.png)
+
+Then add the ForNAV File Storage table to the records property.
+
+![Multiple Watermarks](../_media/RecordsWatermark.png)
+
+For document style (header line) reports:
+On the header OnAfterGetRecord you will need to load and set the watermark for the first page
+
+```javascript
+Watermark.Get('PAGE1', 'WATERMARK');
+Watermark.CalcFields('Data');
+CurrReport.Watermark.Image.Image = Watermark.Data;
+var watermark2Loaded = false;
+```
+
+On the line OnAfterGetRecord you will need to load and set the watermark for the follow up pages
+
+```javascript
+if (CurrReport.PageNo != 1 && !watermark2Loaded) {
+  Watermark.Get('PAGE2', 'WATERMARK');
+  Watermark.CalcFields('Data');
+  CurrReport.Watermark.Image.Image = Watermark.Data;
+  watermark2Loaded = true;
+}
+```
+
+For list style reports:
+On the list OnAfterGetRecord you will need to load and set the watermark based on the page number
+
+```javascript
+CurrReport.PageNo == 1 ? Watermark.Get('PAGE1', 'WATERMARK') : Watermark.Get('PAGE2', 'WATERMARK');
+Watermark.CalcFields('Data');
+CurrReport.Watermark.Image.Image = Watermark.Data;
+```
+
 All of the watermark controls are:
 ```javascript
 CurrReport.Watermark.Image.Visible Boolean
