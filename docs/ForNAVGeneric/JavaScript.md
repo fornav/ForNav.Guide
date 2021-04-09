@@ -244,6 +244,30 @@ Number.prototype.countDecimals = function () {
     return this.toString().split(".")[1].length || 0; 
 }
 ```
+### Build your addresses manually
+Sometimes you may need to build up you address fields manually. If this is the case this JavaScript function in the OnPreReport trigger will do the trick
+
+```javascript
+function AddNewlineIfValue(string) {
+  if(string) {
+    return string + '\n'
+  } else {
+    return ""
+  }
+} 
+
+function formataddress (name,name2,address,address2, postcode,city, country) {
+  return AddNewlineIfValue(name)+AddNewlineIfValue(name2)+AddNewlineIfValue(address)+AddNewlineIfValue(address2)+AddNewlineIfValue(postcode+" "+city)+AddNewlineIfValue(country)
+}
+```
+
+Finally add this line of script in the text box source expression.
+```javascript
+formataddress('',Header.Bill_toName2,Header.Bill_toAddress,Header.Bill_toAddress2, Header.Bill_toPostCode,Header.Bill_toCity, Header.FieldLookups.Bill_toCountry_RegionName)
+
+```
+
+
 
 ### Append and Prepend PDF Files
 
