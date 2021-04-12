@@ -62,7 +62,7 @@ All the elements in your ForNAV Report will be accessible here. All report contr
 |Sections|A section is where we display data on a report. It has a set size that controls the amount of space it takes in a report. There a are several types of section<br>Header: prints information at the top of the DataItem.<br>Body: Prints information per line in the database.<br>Footer: prints information at the bottom of the DataItem.<br>TransHeader and -Footer: prints a section above or below the body section when a report prints more than one page.<br>GroupHeader and -Footer: prints a section above or below a group of body lines.|
 |Controls|On the sections are the controls that determine which data is printed and how that should be displayed.|
 
-> By right clicking a control you can modify its behavior. You can move it up or down in the order of the controls, change the section type or change whether a control is printed at the bottom or on top.
+> By right clicking a control you can modify its behaviour. You can move it up or down in the order of the controls, change the section type or change whether a control is printed at the bottom or on top.
 
 ![Modify Control](../_media/ModifyControl.png)
 
@@ -92,6 +92,7 @@ The field list will display all the fields you can use in the ForNAV Report. Som
 |DynamicsNavDataSet|These fields have been predefined by the report developer. They can only be modified by changing the code in the underlying extension.|
 |Fields|All the fields of the tables referenced in the report are available, whether they are standard Business Central tables or table extensions.|
 |FieldCaptions|All the captions for the fields are also available, with their translations if they are available in the Business Central database.|
+|FieldExtensions|ForNAV will display the field caption and the field value when the value is not empty.|
 |FieldGroups|ForNAV will automatically group certain fields so they will be displayed in a formatted whole. The address fields are an example of these|
 |FieldLookups|ForNAV will automatically make fields from linked tables available.|
 |FieldOptions|These are the option values of the option type fields.|

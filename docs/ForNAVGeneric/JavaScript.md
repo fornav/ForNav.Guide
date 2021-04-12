@@ -245,7 +245,7 @@ Number.prototype.countDecimals = function () {
 }
 ```
 ### Build your addresses manually
-Sometimes you may need to build up you address fields manually. If this is the case this JavaScript function in the OnPreReport trigger will do the trick
+Sometimes you may need to build up you address fields manually. If this is the case this JavaScript function in the OnPreReport trigger will do the trick.
 
 ```javascript
 function AddNewlineIfValue(string) {
@@ -266,8 +266,79 @@ Finally add this line of script in the text box source expression.
 formataddress(Header.Bill_toName,Header.Bill_toName2,Header.Bill_toAddress,Header.Bill_toAddress2, Header.Bill_toPostCode,Header.Bill_toCity, Header.FieldLookups.Bill_toCountry_RegionName)
 
 ```
+> For ForNAV version 5.6 and over this function has been superseded by the CurrReport.JoinStrings function.
+
+### FieldExtensions
 
 
+
+FieldExtensions will display the field caption and the field value when the value is not empty. The FieldExtension has these JavaScript functions:
+
+* Rec.FieldExtensions.Field.Format(\<delimiter\>) – replaces the “: ” delimiter.
+* Rec.FieldExtensions.Field.Format(\<delimiter\>,\<format\>) – replaces the “: ” delimiter and formats the value using a .net format string.
+* Rec.FieldExtensions.Field.Format(\<delimiter\>,\<format\>,\<languageId\>) – replaces the “: ” delimiter and formats the value using a .net format string and a language ID (lcid).
+* Rec.FieldExtensions.Field.HasValue – returns true if the value is not blank.
+
+```javascript
+var joinFormat = ' - '
+var dotnetFormat = 'D';
+var language = 1043;
+
+Header.FieldExtensions.DocumentDate
+// Results in "Document Date: 05/13/21"
+Header.FieldExtensions.DocumentDate.Format(joinFormat)
+// Results in "Document Date - 05/13/21"
+Header.FieldExtensions.DocumentDate.Format(joinFormat, dotnetFormat)
+// Results in "Document Date - Thursday, May 13, 2021"
+Header.FieldExtensions.DocumentDate.Format(joinFormat, dotnetFormat, language)
+// Results in "Document Date - woensdag 13 mei 2021"
+
+if (CompanyInformation.FieldExtensions.E_Mail.HasValue) {
+  //Do something
+}
+```
+
+### Join strings
+To help with formatting of large strings, you can use a new function in a Text Box Source expression: CurrReport.JoinString(<delimiter>, <string>,…). This function automatically compresses the output to remove blank values.
+
+Add company information on a single line delimited with a | character.
+```javascript
+CurrReport.JoinStrings(' | ',
+  CompanyInformation.FieldExtensions.PhoneNo, 
+  CompanyInformation.FieldExtensions.E_Mail, 
+  CompanyInformation.FieldExtensions.HomePage, 
+  CompanyInformation.FieldExtensions.VATRegistrationNo,
+  CompanyInformation.FieldExtensions.IBAN, 
+  CompanyInformation.FieldExtensions.SWIFTCode
+)
+```
+
+Add company information on several lines delimited with a JavaScript new line character.
+```javascript
+var joinFormat = ' - ';
+CurrReport.JoinStrings('\n',
+  CompanyInformation.FieldExtensions.PhoneNo.Format(joinFormat), 
+  CompanyInformation.FieldExtensions.E_Mail.Format(joinFormat), 
+  CompanyInformation.FieldExtensions.HomePage.Format(joinFormat), 
+  CompanyInformation.FieldExtensions.VATRegistrationNo.Format(joinFormat),
+  CompanyInformation.FieldExtensions.IBAN.Format(joinFormat), 
+  CompanyInformation.FieldExtensions.SWIFTCode.Format(joinFormat)
+)
+```
+
+JoinStrings does not just work with the FieldExtensions, it works with any type of string.
+
+To manually build an address field.
+```javascript
+CurrReport.JoinStrings('\n',
+  Header.Bill_toName,
+  Header.Bill_toName2,
+  Header.Bill_toAddress,
+  Header.Bill_toAddress2,
+  Header.Bill_toPostCode + ', ' + Header.Bill_toCity,
+  Header.FieldLookups.Bill_toCountry_RegionName
+)
+```
 
 ### Append and Prepend PDF Files
 
