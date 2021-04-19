@@ -293,7 +293,7 @@ Header.FieldExtensions.DocumentDate.Format(joinFormat, dotnetFormat)
 Header.FieldExtensions.DocumentDate.Format(joinFormat, dotnetFormat, language)
 // Results in "Document Date - woensdag 13 mei 2021"
 
-if (CompanyInformation.FieldExtensions.E_Mail.HasValue) {
+if (CompanyInformation.FieldExtensions.E_Mail.HasValue()) {
   //Do something
 }
 ```
