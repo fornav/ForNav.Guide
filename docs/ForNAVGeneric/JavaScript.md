@@ -340,6 +340,15 @@ CurrReport.JoinStrings('\n',
 )
 ```
 
+```javascript
+CurrReport.JoinStrings('\n',
+  Line.Description,
+  Line.Description2,
+  Item.FieldExtensions.NetWeight,
+  Item.FieldExtensions.Country_RegionofOriginCode
+)
+```
+
 ### Append and Prepend PDF Files
 
 ```javascript
