@@ -377,7 +377,7 @@ For an image watermark you can use the image or a pdf in a blob field as a water
 ```javascript
 ForNAVFileStorage.Get('WATERMARK', 'IMAGE');
 ForNAVFileStorage.CalcFields('Data');
-CurrReport.Watermark.Image.Image = ForNAVFileStorage.Data;
+If (ForNavFileStorage.Data != ‘’) CurrReport.Watermark.Image.Image = ForNAVFileStorage.Data;
 ```
 > When you specify watermark controls they will be remembered. Therefore, when you don't want to display watermark text or images for a subsequent page you need to hide them using the CurrReport.Watermark.Text.Visible and CurrReport.Watermark.Image.Visible controls.
 
