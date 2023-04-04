@@ -229,7 +229,6 @@ Number.prototype.format = function(n, x, s, c) {
 123456.789.format(4, 4, ' ', ':');  // "12 3456:7890"
 12345678.9.format(0, 3, '-');       // "12-345-679"
 ```
-Via https://stackoverflow.com/questions/149055/how-to-format-numbers-as-currency-string
 
 Call this function from any number:
 ```javascript
@@ -455,6 +454,7 @@ CurrReport.DotNetFormat(Header.DueDate, "D", 1043); // Formats the date to nl-NL
 
 * [Knowledge Base Dynamic control of fonts](https://www.fornav.com/knowledge-base/dynamic-control-of-color-and-font-in-text-boxes/ )
 * [Online JavaScript Editor](https://js.do/)
+* [JavaScript Cheatsheet for beginners](https://dev.to/unitybuddy/javascript-cheatsheet-for-beginners-3330)
 
 <div style="position: relative; padding-bottom: 57.05229793977813%; height: 0;">
     <iframe
